@@ -9,12 +9,16 @@
 
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
 
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: #5f5345;
 }
  
 .pageContainer {
-  width: 940px;
+  border-radius: 10px;
+  width: auto;
   margin: 20px auto 0 auto;
   padding: 20px;
   background-color: #fff;
@@ -22,7 +26,7 @@ body {
  
 .imageContainer {
   float: left;
-  width: 620px;
+  width: auto;
 }
  
 .textContainer {
@@ -33,6 +37,7 @@ body {
 }
 
 img {
+  border-radius: 10px;
   width: 100%;
 }
  
